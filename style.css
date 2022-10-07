@@ -1,0 +1,90 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #404042;
+  font-size: 18px;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.banner{
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  padding: 150px 0;
+  background-position: center;
+  text-align: center;
+}
+
+.banner h1{
+  color: white;
+  font-size: 45px;
+  margin: 0;
+
+}
+
+.banner p{
+  color: white;
+  font-size: 24px;
+}
+
+.btn-blue{
+  background-color: #0D1EC6;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 47px;
+}
+
+.btn-blue:hover{
+  background-color:#0616a363 ;
+
+}
+
+.card-white{
+  background-color: white;
+  box-shadow: 0 0 16px rgba(0,0,0, 0.2);
+  background-color: white;
+  box-shadow: 0 0 16px rgb(0 0 0 / 20%);
+  border-radius: 4px;
+  width: 200px;
+  padding: 24px;
+  margin: 8px
+}
+
+.card-white img{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+
+}
+
+.card-white h2{
+  margin-bottom: 0px;
+}
+
+
+.footer{
+  background-color: #404042;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p{
+  color: white;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px
+}
+
+.card-white:hover{
+  box-shadow: 3px 3px 16px rgba(0,0,0,0.8);
+}
